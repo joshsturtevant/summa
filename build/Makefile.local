@@ -60,8 +60,8 @@ FC_EXE = gfortran
 # LIBRARIES = '-L<netcdf library path> -lnetcdff -L<blas library path> -lblas -L<etc> -l<etc>'
 # If none of this makes sense, please talk to your system
 # administrator.
-INCLUDES = -I/opt/homebrew/Cellar/netcdf/4.9.0/include -I/opt/homebrew/Cellar/lapack/3.11/include
-LIBRARIES = -L/opt/homebrew/Cellar/netcdf/4.9.0/lib -lnetcdff -L/opt/homebrew/local/Cellar/lapack/3.11/lib -lblas -llapack
+INCLUDES = -I/opt/homebrew/Cellar/netcdf-fortran/4.6.0/include -I/opt/homebrew/Cellar/lapack/3.11/include
+LIBRARIES = -L/opt/homebrew/Cellar/netcdf-fortran/4.6.0/lib -lnetcdff -L/opt/homebrew/local/Cellar/lapack/3.11/lib -lblas -llapack
 
 # Eventually we plan move to a real configure script, but for now we like
 # to keep track of successful compilations of SUMMA on different platforms
