@@ -38,7 +38,7 @@
 
 # Define core directory below which everything resides. This is the
 # parent directory of the 'build' directory
-F_MASTER=/Users/joshsturtevant/Documents/summa
+F_MASTER = /Users/joshsturtevant/Documents/summa
 
 # Define the Fortran Compiler. If you are using gfortran, then this needs
 # to be version 6 or higher. This variable is simply used to select the right
